@@ -62,7 +62,7 @@ def soilmeasure():
     print("Soil sensor:")
     print("-"*10)
 	if GPIO.input(soil):
-		print("No water detected")
+		print("No water detected")	
 	else:
 		print("Water detected")
 			
