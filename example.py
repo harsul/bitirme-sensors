@@ -72,7 +72,7 @@ try:
     while True:
         rainsensor()
         ldrsensor()
-        temperature()
+        #temperature()
         soilmeasure()
             
         sleep(10)
